@@ -43,7 +43,7 @@
     height: 400px;
     width:700px;
     background-color: red;
-    display: inline-block;
+    display: flex;
     padding: 10px;
     vertical-align: top;
     margin-left: 20px;
