@@ -1,50 +1,41 @@
 .container{
-    padding:20px;
-    clear:both;
+    padding:15px;
     width: 950px;
-    height: 900px;
     background-color: silver;
     margin: 0px auto;
 }
 .top-nav {
     height: 150px;
     background-color: green;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .side-nav {
     height: 300px;
     width: 200px;
     background-color: blue;
-    display: inline-block;
+    margin-right: 20px;
 }
 .main {
     height: 400px;
     width:700px;
     background-color: red;
-    display: inline-block;
-    padding: 10px;
-    vertical-align: top;
-    margin-left: 20px;
+    padding: 15px;
 }
 .sub-content {
     height: 200px;
-    width: 210px;
+    width: 200px;
     background-color: yellow;
-    display: inline-block;
-    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
 }
 #advertisement {
     height: 120px;
-    width: 660px;
-    margin-top: 20px;
+    width: 670px;
+    margin-top: 15px;
     background-color: purple;
 }
-. row {
-    height: 400px;
-    width:700px;
-    background-color: red;
+.row { 
     display: flex;
-    padding: 10px;
-    vertical-align: top;
-    margin-left: 20px;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
